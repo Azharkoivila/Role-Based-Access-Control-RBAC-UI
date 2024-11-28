@@ -72,38 +72,38 @@ http://localhost:3000/
 #### Methods
 #### User Methods
 
-```http
+```
   GET    /  [root]seted as login
 ```
 
-```http
+```
   POST   /
 ```
-```http
+```
   GET    /signup
 ```
-```http
+```
   POST   /signup
 ```
-```http
+```
   GET    /dashboard
 ```
-```http
+```
   GET    /logout
 ```
 #### Admin Methods
 
-```http
+```
   GET    /admin
 ```
-```http
+```
   POST   /admin
 ```
 
-```http
+```
   GET    /admin/dashboard
 ```
-```http
+```
   GET    /admin/updateUser?
 ```
 
