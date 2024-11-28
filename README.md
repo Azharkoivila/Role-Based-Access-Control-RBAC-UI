@@ -12,7 +12,7 @@ VRV Security’s Backend Developer Intern Assignment
   npm install
 ```
 
--> Database Used Mongodb|| so start Mongodb service and import admin db using ROBO3T
+-> Database Used Mongodb|| so start Mongodb service and import admin db using STUDIO 3T
 
 
 
