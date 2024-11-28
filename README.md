@@ -134,3 +134,10 @@ This is UI BASED ASSESSMENT  SO  OTHER METHODS NOT AVAILABLE IN MOST OF BROWSERS
 
 Yes, by adding NEEDED ROUTES on project Routes wecan use other REST methods and also pass jwt token as barear Token for verify autherisation and authentication
 
+
+## Screenshots
+
+![App Screenshot](https://raw.githubusercontent.com/Azharkoivila/Role-Based-Access-Control-RBAC-UI/refs/heads/main/ScreenShots/Screenshot%20from%202024-11-28%2019-34-13.png)
+![App Screenshot](https://raw.githubusercontent.com/Azharkoivila/Role-Based-Access-Control-RBAC-UI/refs/heads/main/ScreenShots/Screenshot%20from%202024-11-28%2019-34-23.png)
+
+
