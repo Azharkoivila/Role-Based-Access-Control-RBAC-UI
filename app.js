@@ -3,25 +3,42 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-
-var indexRouter = require('./routes/index');
+const expHbs = require("express-handlebars");
+var adminRouter = require('./routes/admin');
 var usersRouter = require('./routes/users');
-
+var cookieParser = require("cookie-parser");
+const dbConfig = require("./config/connection");
 var app = express();
 
+
+// for customizing view engine folders and adding partials
+const hbs = expHbs.create({
+  defaultLayout: path.join(__dirname, "views/layout/layout"),
+  partialsDir: path.join(__dirname, "views/partials/"),
+  helpers: require('./helpers/hbs-custom-helpers'),
+  extname: ".hbs",
+});
+
+
+
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'hbs');
+app.engine("hbs", hbs.engine);
+app.set("views", path.join(__dirname, "views/pages"));
+app.set("view engine", "hbs");
+
 
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(cookieParser())
+app.use("/", usersRouter);
+app.use("/admin", adminRouter);
 
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
 
+//for creating connection to the Database
+dbConfig.connect()
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
