@@ -16,6 +16,7 @@ function verifyLogin(req, res, next) {
       }
     })
     .catch((err) => {
+      res.status(403);
       res.send(err);
     });
 }
