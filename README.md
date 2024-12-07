@@ -1,7 +1,6 @@
 
 # Role-Based Access Control (RBAC) UI
 
-VRV Security’s Backend Developer Intern Assignment
 
 ## Deployment
 
