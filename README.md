@@ -1,5 +1,5 @@
 
-# Role-Based Access Control (RBAC) UI
+# Role-Based Access Control (RBAC)
 
 
 ## Deployment
@@ -125,10 +125,6 @@ http://localhost:3000/
 
 ## FAQ
 
-#### WHY OTHER REST API METHOD NOT USED ?
-
-This is UI BASED ASSESSMENT  SO  OTHER METHODS NOT AVAILABLE IN MOST OF BROWSERS
-
 #### Is Additionally can use OTHER METHODS?
 
 Yes, by adding NEEDED ROUTES on project Routes wecan use other REST methods and also pass jwt token as barear Token for verify autherisation and authentication
@@ -136,7 +132,7 @@ Yes, by adding NEEDED ROUTES on project Routes wecan use other REST methods and 
 
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/Azharkoivila/Role-Based-Access-Control-RBAC-UI/refs/heads/main/ScreenShots/Screenshot%20from%202024-11-28%2019-34-13.png)
-![App Screenshot](https://raw.githubusercontent.com/Azharkoivila/Role-Based-Access-Control-RBAC-UI/refs/heads/main/ScreenShots/Screenshot%20from%202024-11-28%2019-34-23.png)
+![App Screenshot](https://raw.githubusercontent.com/Azharkoivila/Role-Based-Access-Control-RBAC-/refs/heads/main/ScreenShots/Screenshot%20from%202024-11-28%2019-34-13.png)
+![App Screenshot](https://raw.githubusercontent.com/Azharkoivila/Role-Based-Access-Control-RBAC-/refs/heads/main/ScreenShots/Screenshot%20from%202024-11-28%2019-34-23.png)
 
 
